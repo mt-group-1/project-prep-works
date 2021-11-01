@@ -85,18 +85,23 @@ everyone will provide their ideas and thoughts in the daily meeting
 Explain your work plan to track whether everyone is contributing equally to all parts of the project, and that each person is working on “meaty” problems. This should prevent “lone wolf” efforts and “siloed” efforts.
 Describe at least:
 - How you will identify tasks, assign tasks, know when they are complete, and manage work in general?
-the team leader will test functionality after each member assign it 
+
+
 - What project management tool will be used?
+
 Trello
 
 ## Git Process
 Plan out what your team’s Git workflow looks like for coding tasks.
 Describe at least:
 - What components of your project will live on GitHub?
+
 The code and the data
 - How will you share the repository with your teammates?
+
 Collaborate through organization  
 - What is your Git flow?
+
 **Gitflow workflow**
 This workflow employs two parallel long-running branches:
 
@@ -107,12 +112,18 @@ created from Master, this is the home of all completed and stable features prepa
 
 When you start working on a new feature, create a new `Feature` branch from `Develop`. Create as many feature branches in parallel as you want and need. When the work is done and the feature is tested, merge the code back to `Develop`.
 
+
 Will you be using a PR review workflow? If so, consider:
 - How many people must review a PR?
-Two 
+
+Two of our team members
 - Who merges PRs?
-Team leader
+
+Odeh Abuzaid
+Majed Al-Swaeer 
 - How often will you merge?
-After each function works
+
+After each feature tests is implemented and passed we will do our merge part
 - How will you communicate that it’s time to merge?
-by the end of the day
+
+after the daily tasks are completed we will do the merge
