@@ -85,7 +85,7 @@ everyone will provide their ideas and thoughts in the daily meeting
 Explain your work plan to track whether everyone is contributing equally to all parts of the project, and that each person is working on “meaty” problems. This should prevent “lone wolf” efforts and “siloed” efforts.
 Describe at least:
 - How you will identify tasks, assign tasks, know when they are complete, and manage work in general?
-
+Once our idea will approved we will know how many daily tadks we will have , also in our managment tool we will define our process and tasks and in the description we will assign each task or one or two of our team members
 
 - What project management tool will be used?
 
@@ -111,7 +111,6 @@ used for releases only
 created from Master, this is the home of all completed and stable features prepared for the next release
 
 When you start working on a new feature, create a new `Feature` branch from `Develop`. Create as many feature branches in parallel as you want and need. When the work is done and the feature is tested, merge the code back to `Develop`.
-
 
 Will you be using a PR review workflow? If so, consider:
 - How many people must review a PR?
