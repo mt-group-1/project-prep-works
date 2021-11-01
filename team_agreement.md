@@ -93,11 +93,19 @@ Trello
 Plan out what your team’s Git workflow looks like for coding tasks.
 Describe at least:
 - What components of your project will live on GitHub?
-None
+The code and the data
 - How will you share the repository with your teammates?
 Collaborate through organization  
 - What is your Git flow?
-branches will be merged into main 
+**Gitflow workflow**
+This workflow employs two parallel long-running branches:
+
+- **Master**
+used for releases only
+- **Develop**
+created from Master, this is the home of all completed and stable features prepared for the next release
+
+When you start working on a new feature, create a new `Feature` branch from `Develop`. Create as many feature branches in parallel as you want and need. When the work is done and the feature is tested, merge the code back to `Develop`.
 
 Will you be using a PR review workflow? If so, consider:
 - How many people must review a PR?
